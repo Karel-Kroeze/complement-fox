@@ -1,0 +1,41 @@
+@text-colour: #000;
+@background-colour: #eee;
+@foreground-colour: #fff;
+@border-radius: 0.2em;
+
+@secondary-colour: rgb(241, 243, 244);
+@shadow-colour: rgba(0, 0, 0, 0.2);
+
+.panel {
+	background: @foreground-colour;
+	border-radius: @border-radius;
+	padding: 0.5em 1em;
+	box-shadow: 2px 2px 4px @shadow-colour;
+}
+
+.btn-secondary {
+	border-radius: 50%;
+	background-color: @secondary-colour;
+	font-size: 18px;
+
+	width: 2em;
+	height: 2em;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	cursor: pointer;
+
+	&:hover,
+	&:active,
+	&:focus-within {
+		background-color: darken(@secondary-colour, 10%);
+	}
+
+	&[disabled],
+	&.disabled {
+		color: lighten(@text-colour, 20);
+		cursor: not-allowed;
+	}
+}
