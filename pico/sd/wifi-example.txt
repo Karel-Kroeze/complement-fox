@@ -1,0 +1,17 @@
+# This is a template file for providing WiFi credentials. Follow the below instructions, then rename this file to
+# "wifi.txt", and store it on the SD card.
+# 
+# Please fill in your WiFi credentials below. 
+# 
+# Any line that starts with a '#' is a comment, and will be ignored by the fox. You can make changes below, but make 
+# sure to leave the comment hashtags where appropriate. 
+# 
+# After changing the WiFi credentials, re-insert the SD card and reset the fox using the black button next to the USB socket. 
+
+# SSID is the name of the network. 
+# For example, if the network name was "My WiFi is better than yours", you would use: 
+# ssid=My WiFi is better than yours
+ssid=My WiFi is better than yours
+
+# Password. Does what you think it does.
+password=super secret sauce
