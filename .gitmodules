@@ -1,3 +1,6 @@
 [submodule "app"]
 	path = app
 	url = ../complement-fox-app.git
+[submodule "lift-me-up"]
+	path = lift-me-up
+	url = ../complement-fox-lift-me-up
